@@ -2,7 +2,7 @@ function palidromo(parola){
 
     let lunghezza = parola.length;
     
-    for (i = 0; i < lunghezza / 2; i++){
+    for (i = 0; i < lunghezza / 2 | 0; i++){
         
         if (parola[i] != parola[lunghezza - 1 - i]){
             return false;
